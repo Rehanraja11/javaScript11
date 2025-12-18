@@ -11,7 +11,7 @@ submit.addEventListener("click", (e) => {
     localStorage.setItem(currentKey, JSON.stringify(DescriptionC));
 
     showData.innerHTML = `
-        <h1>${titleC}</h1>
+        <h2>${titleC}</h2>
         <h3>${DescriptionC}</h3>
     `;
 
