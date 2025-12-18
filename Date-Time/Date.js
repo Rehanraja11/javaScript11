@@ -1,0 +1,5 @@
+let now = new Date()
+now.setDate(23)
+now.setFullYear(2020)
+document.write(now.getDate())
+document.write(now)

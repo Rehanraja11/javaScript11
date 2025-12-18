@@ -1,0 +1,26 @@
+#clock {
+    width: 60%;
+    height: 450px;
+    border: 1px solid black;
+    margin-left: 360px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Header {
+    font-size: 30px;
+    font-variant: small-caps;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+#submit {
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
