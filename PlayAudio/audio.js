@@ -1,10 +1,13 @@
 
-function play() {
+function setAlarm(second) {
     return setTimeout(() => {
         var audio = new Audio('https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3');
         audio.play();
-    }, 11000)
+    }, second * 1000)
 }
+
+let a = prompt("Enter You Want to Set ALarm ")
+setAlarm(parseInt(a))
 
 let mainDiv = document.querySelector('#clock')
 let submitbtn = document.querySelector('#submit')
@@ -14,5 +17,5 @@ submitbtn.addEventListener('click', () => {
         mainDiv.style.backgroundColor = "yellow"
         submitbtn.style.backgroundColor = "white"
         submitbtn.style.color = "black"
-    }, 11000)
+    }, 10000)
 })
