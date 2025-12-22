@@ -1,4 +1,4 @@
-localStorage.setItem("Name", "Rehann Raja")
+localStorage.setItem(1, "Rehann Raja")
 localStorage.setItem("Name1", "Rehann11")
 let b = localStorage.getItem("Name")
 console.log(b)
@@ -6,18 +6,21 @@ localStorage.removeItem("Name1")
 localStorage.clear()
 
 
-// with Arrays 
-let namessssss = prompt("Enter The Name")
+// with Arrays
+// let namessssss = prompt("Enter The Name")
 
 
 let allnames = ["Ronaldo", "Virat", "Dhoni", "Jethalal"]
 localStorage.setItem("BestNames", JSON.stringify(allnames))
 
 
-let getNames = JSON.parse(localStorage.getItem("BestNames"))
-getNames.push(namessssss)
+let getNames = JSON.parse(localStorage.getItem("BestNames")) || []
+// getNames.push(namessssss)
 
 localStorage.setItem("bestNames", JSON.stringify(getNames))
+
+let recover = JSON.parse(localStorage(get))
+console.log(recover)
 
 
 
@@ -36,13 +39,3 @@ localStorage.setItem("bestNames", JSON.stringify(getNames))
 // let storedUser = JSON.parse(localStorage.getItem("user"));
 
 // console.log(storedUser);
-
-
-
-
-
-
-
-
-
-
