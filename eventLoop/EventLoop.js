@@ -1,9 +1,11 @@
-console.log("Hey")
-
-console.log("I")
+console.log("1")
 
 setTimeout(() => {
-    console.log("Rehann Raja")
-}, 1100)
+    console.log("2")
+}, 2000);
 
-console.log("Am")
+setTimeout(() => {
+    console.log("3")
+}, 1000);
+
+console.log("4")
