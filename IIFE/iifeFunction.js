@@ -1,10 +1,5 @@
 (function iife() {
-    setTimeout(() => {
-        console.log("iife")
-    }, 2000)
-})
+    console.log("This Function Is Represent A Immidetly Invocked Function")
+}
+)
     ()
-
-
-
-

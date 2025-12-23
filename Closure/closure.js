@@ -3,11 +3,14 @@ function games() {
     let pubg = "Playing The pubg"
 
     function playGame() {
-        console.log(`introvert Players  ${freeFire} extrovert Players  ${pubg}`)
+        setTimeout(() => {
+            console.log(`introvert Players  ${pubg}`)
+        }, 1000)
+        setTimeout(() => {
+            console.log(`extrovert Players  ${freeFire}`)
+        }, 2000)
     }
-
     return playGame()
 
 }
-
 games()
