@@ -1,0 +1,42 @@
+body {
+    background: #ffffff95;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    margin-top: 120px;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-variant: small-caps;
+    gap: 1px;
+}
+
+#startBtn {
+    color: rgb(255, 255, 255);
+    background-color: #51aa51c5;
+    padding: 11px 25px;
+    border-radius: 10px;
+    margin-left: 43%;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    font-variant: small-caps;
+    gap: 1px;
+    font-weight: 500;
+
+}
+
+#stopBtn {
+    color: rgb(255, 255, 255);
+    background-color: #ff0000;
+    border: none;
+    padding: 11px 25px;
+    border-radius: 10px;
+    margin-left: 3%;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-variant: small-caps;
+    gap: 1px;
+    font-weight: 500;
+}

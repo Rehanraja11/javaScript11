@@ -14,7 +14,6 @@ function divideNumbers(a, b) {
         let result = a / b;
         console.log(" Result:", result);
         return result;
-
     } catch (error) {
 
         console.log(" Error:", error.message);
